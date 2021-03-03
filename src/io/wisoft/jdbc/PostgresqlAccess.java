@@ -17,7 +17,7 @@ public class PostgresqlAccess {
     public static Connection getConnection() {
         String url = "jdbc:postgresql://arjuna.db.elephantsql.com:5432/bijdlile";
         String username = "bijdlile";
-        String password = "QYdOIlgomeiV3LAxuqwwAnsm2nRiznmZ";
+        String password = "//";
 
         try {
             conn = DriverManager.getConnection(url, username, password);
